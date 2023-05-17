@@ -36,7 +36,7 @@ use PHPMailer\PHPMailer\Exception;
                               $mail->Port = 587;                                    // TCP port to connect to
                            
                               //Recipients
-                              $mail->setFrom('tungnlmth2109055@fpt.edu.vn', 'Your order was confimed');// nghe 
+                              $mail->setFrom('null', 'Your order was confimed');// nghe 
                               $mail->addAddress($order["email"], $order["fullname"]);     // Add a recipient
                               // $mail->addAddress('ellen@example.com');               // Name is optional
                               // $mail->addReplyTo('info@example.com', 'Information');
